@@ -1,3 +1,10 @@
 <?php get_header(); ?>
- <p> index page </p>
+
+
+ <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+ <!-- contents of the loop -->
+ <?php the_title(); ?>
+ <?php endwhile; endif; ?>
+
+
 <?php get_footer(); ?>

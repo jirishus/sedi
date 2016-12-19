@@ -1,4 +1,5 @@
 <!DOCTYPE HTML>
+
 <head>
  <title><?php wp_title('|'); ?></title>
  <meta charset="<?php bloginfo( 'charset' ); ?>" />
@@ -9,4 +10,4 @@
 </head>
 <body>
 
- <p>header</p>
+ <h2>Game Time</h2>
