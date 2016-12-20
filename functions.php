@@ -21,11 +21,11 @@
 
  // widgets
  if(function_exists('register_sidebar')) {
-     register_sidebar(array(
-         'name'          => 'Navigation',
-         'id'            => 'navigation',
-         'description'   => 'Header navigation'
-     ) );
+  register_sidebar(array(
+       'name'          => 'main nav',
+       'id'            => 'mainnav',
+       'description'   => 'Widget for header navigation'
+  ));
  }
 
 ?>

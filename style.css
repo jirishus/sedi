@@ -10,3 +10,7 @@ Theme is Licensed under the GPL
 body {
  background: #eee;
 }
+
+ul, li {
+ list-style:none;
+}

@@ -10,4 +10,13 @@
 
  <?php wp_head(); // why do i need this? ?>
 </head>
-<body>
+<body class="container">
+
+<header class="row">
+ <div class="col-md-6">
+  <a href="http://localhost:8888/learnsteady/">LearnSteady</a>
+ </div>
+ <div class="col-md-6">
+  <?php dynamic_sidebar('main nav'); ?>
+ </div>
+</header>
