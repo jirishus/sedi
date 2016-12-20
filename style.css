@@ -7,10 +7,39 @@ Theme is Licensed under the GPL
 
 */
 
+
 body {
+/* background:url('./images/banner.jpeg') no-repeat center center;
+ background-size: cover;*/
+}
+
+header {
  background: #eee;
+ padding:20px 0;
+ position: relative;
 }
 
 ul, li {
  list-style:none;
+}
+
+li {
+ display:inline;
+}
+
+.single-blog {
+ background: #eee;
+ padding: 20px 0;
+ margin: 5px 0;
+ text-align:center;
+}
+.single-blog-title a {
+ color: #333;
+ text-transform: uppercase;
+}
+
+footer {
+ border-top:2px solid #333;
+ background: #c73b0b;
+ height:200px;
 }
