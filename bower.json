@@ -1,0 +1,20 @@
+{
+  "name": "sedi",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "jirishus <jirishus@yahoo.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jirishus/sedi",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

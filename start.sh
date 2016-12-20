@@ -1,1 +1,0 @@
-browser-sync start --proxy "http://127.0.0.1:8888/learnsteady" --files "*.php","*.css"
