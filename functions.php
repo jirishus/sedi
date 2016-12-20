@@ -3,9 +3,13 @@
  // thumbnail theme support
  add_theme_support('post-thumbnails');
 
- // actions
+ // actions & filters
  add_action('wp_enqueue_scripts', 'semi_script_enqueuer');
  add_action('init','register_my_menus');
+
+ add_filter('show_admin_bar', '__return_false');
+
+ // definitions
 
  function semi_script_enqueuer() {
   
@@ -30,6 +34,14 @@
    'name'          => 'main nav',
    'id'            => 'mainnav',
    'description'   => 'Widget for header navigation'
+  ));
+ }
+
+ if(function_exists('register_sidebar')) {
+  register_sidebar(array(
+   'name'          => 'sidebar info',
+   'id'            => 'sidebar-info',
+   'description'   => 'Sidebar Widget'
   ));
  }
 

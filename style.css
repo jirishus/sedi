@@ -8,15 +8,26 @@ Theme is Licensed under the GPL
 */
 
 
-body {
-/* background:url('./images/banner.jpeg') no-repeat center center;
- background-size: cover;*/
+a:hover {
+ text-decoration:none;
 }
 
+body {}
+
 header {
- background: #eee;
- padding:20px 0;
+ padding:10px 0;
  position: relative;
+}
+
+header a {
+ margin-right:6px;
+}
+
+.hero-unit {
+ background: url('./images/banner.jpeg') no-repeat center center;
+ background-size: cover;
+ padding: 60px 0;
+ text-align:center;
 }
 
 ul, li {

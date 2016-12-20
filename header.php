@@ -11,8 +11,7 @@
 <body>
 
 <header>
-
-<div class="container">
+ <div class="container">
  <div class="row">
   <div class="col-md-6">
    <a href="http://localhost:3000/learnsteady/">LearnSteady</a>
@@ -21,6 +20,16 @@
    <?php dynamic_sidebar('main nav'); ?>
   </div>
  </div>
+</div>
 </header>
 
-<div class="container">
+<section class="hero-unit">
+ <div class="container">
+  <div class="row">
+   <div class="col-md-12">
+    <h2>Learn The Bleeding Edge Technologies</h2>
+    <a href="#" class="btn btn-primary">Get Started Now</a>
+   </div>
+  </div>
+ </div>
+</section>
