@@ -7,6 +7,32 @@ Theme is Licensed under the GPL
 
 */
 
+/* CLEARFIX */
+.group:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+.title_single {
+ border-bottom: 1px solid #333;
+ padding: 40px 0;
+ margin-bottom: 40px;
+ text-align:center;
+ text-transform: uppercase;
+}
+
+.pagination {
+ text-align:center;
+ width: 100%;
+}
+
+.wp-post-image {
+ height:180px;
+ width:250px;
+}
 
 a:hover {
  text-decoration:none;
@@ -24,9 +50,11 @@ header a {
 }
 
 .hero-unit {
- background: url('./images/banner.jpeg') no-repeat center center;
- background-size: cover;
- padding: 60px 0;
+ // background: url('./images/rock.jpg') no-repeat center center;
+ // background-size: cover;
+ border-top:2px solid #333;
+ border-bottom:2px solid #333;
+ padding: 80px 0;
  text-align:center;
 }
 
@@ -38,19 +66,50 @@ li {
  display:inline;
 }
 
+.learn-nav {
+ background: #ccc;
+ padding:20px 0;
+}
+
 .single-blog {
- background: #eee;
- padding: 20px 0;
- margin: 5px 0;
- text-align:center;
+ border-bottom:1px solid #333;
+ line-height: 1em;
+ height: 400px;
+ float: left;
+ text-align: center;
+ padding-bottom: 40px;
+ padding-top: 20px;
+ position: relative;
+ margin: 0 auto;
+ width:33.3%;
 }
 .single-blog-title a {
  color: #333;
  text-transform: uppercase;
 }
 
+.single-blog .excerpt+p {
+ margin: 0 auto;
+ text-align: left;
+ width: 80%;
+}
+
+.sidebar_widget {}
+.sidebar_widget ul {
+ padding: 0;
+}
+.sidebar_widget a {
+ border-bottom: 1px solid #333;
+ float: right;
+ margin-bottom:10px;
+ padding-bottom: 10px;
+}
+
+.widget_recent_entries .widgettitle {
+ display: none;
+}
+
 footer {
  border-top:2px solid #333;
- background: #c73b0b;
- height:200px;
+ height:20px;
 }

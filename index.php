@@ -2,21 +2,30 @@
 
 <div class="container">
 
-<div class="row">
- <div class="col-md-8">
+<div class="row group">
+ <div class="col-md-12">
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
- 
+  
   <section class="single-blog">
-   <h3 class="single-blog-title"><a href="<?php esc_url( the_permalink() ); ?>"><?php the_title(); ?></a></h3>
+   <p class="single-blog-title"><a href="<?php esc_url( the_permalink() ); ?>"><?php the_title(); ?></a></p>
    <p><?php the_date(); ?></p>
+   <p><?php the_post_thumbnail(); ?></p>
+   <p class="excerpt group"><?php the_excerpt(); ?></p>
   </section>
-
 
   <?php endwhile; endif; ?>
  </div>
- <div class="col-md-4">
-  <?php dynamic_sidebar('sidebar info'); ?>
- </div>
+
+
+<div class="row group pagination">
+ <div class="nav-previous alignleft"><?php next_posts_link( 'See Older Posts' ); ?></div>
+ <div class="nav-next alignright"><?php previous_posts_link( 'Newer posts' ); ?></div>
+</div>
+
+
+</div>
+
+
 </div>
 
 </div>

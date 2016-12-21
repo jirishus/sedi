@@ -45,4 +45,12 @@
   ));
  }
 
+ if(function_exists('register_sidebar')) {
+  register_sidebar(array(
+   'name'          => 'learn nav',
+   'id'            => 'learn-nav',
+   'description'   => 'Learn Nav Widget'
+  ));
+ }
+
 ?>

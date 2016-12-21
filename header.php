@@ -26,10 +26,18 @@
 <section class="hero-unit">
  <div class="container">
   <div class="row">
+
    <div class="col-md-12">
-    <h2>Learn The Bleeding Edge Technologies</h2>
+    <h2>Learn To Code With Micro-Lessons</h2>
     <a href="#" class="btn btn-primary">Get Started Now</a>
    </div>
+
   </div>
  </div>
 </section>
+
+<div class="learn-nav group">
+  <nav class="row col-md-6 col-md-offset-4">
+    <?php dynamic_sidebar('learn nav'); ?>
+  </nav>
+</div>
