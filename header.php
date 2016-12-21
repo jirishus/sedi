@@ -28,8 +28,8 @@
   <div class="row">
 
    <div class="col-md-12">
-    <h2>Learn To Code With Micro-Lessons</h2>
-    <a href="#" class="btn btn-primary">Get Started Now</a>
+    <h2>Software Tutorials And Best Practices</h2>
+    <!-- <a href="#" class="btn btn-primary">Get Started Now</a> -->
    </div>
 
   </div>

@@ -16,6 +16,12 @@ Theme is Licensed under the GPL
     height: 0;
 }
 
+.read-more {
+ display: block;
+ margin: 15px 10px 15px 0px;
+ text-align: right;
+}
+
 .title_single {
  border-bottom: 1px solid #333;
  padding: 40px 0;
@@ -30,8 +36,8 @@ Theme is Licensed under the GPL
 }
 
 .wp-post-image {
- height:180px;
- width:250px;
+ height:140px;
+ width:200px;
 }
 
 a:hover {
@@ -50,31 +56,37 @@ header a {
 }
 
 .hero-unit {
- // background: url('./images/rock.jpg') no-repeat center center;
- // background-size: cover;
+ background: url('./images/rock.jpg') no-repeat center center;
+ background-size: cover;
  border-top:2px solid #333;
  border-bottom:2px solid #333;
  padding: 80px 0;
  text-align:center;
 }
 
+.learn-nav {
+ border-bottom: 2px solid #333;
+ padding:20px 0;
+ margin-bottom: 40px;
+}
+
 ul, li {
  list-style:none;
+  margin: 0;
 }
 
 li {
  display:inline;
 }
 
-.learn-nav {
- background: #ccc;
- padding:20px 0;
+.learn-nav a {
+ margin-right: 15px;
 }
 
 .single-blog {
  border-bottom:1px solid #333;
  line-height: 1em;
- height: 400px;
+ height: 350px;
  float: left;
  text-align: center;
  padding-bottom: 40px;
@@ -91,7 +103,7 @@ li {
 .single-blog .excerpt+p {
  margin: 0 auto;
  text-align: left;
- width: 80%;
+ width: 60%;
 }
 
 .sidebar_widget {}

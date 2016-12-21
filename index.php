@@ -8,7 +8,6 @@
   
   <section class="single-blog">
    <p class="single-blog-title"><a href="<?php esc_url( the_permalink() ); ?>"><?php the_title(); ?></a></p>
-   <p><?php the_date(); ?></p>
    <p><?php the_post_thumbnail(); ?></p>
    <p class="excerpt group"><?php the_excerpt(); ?></p>
   </section>
@@ -22,12 +21,8 @@
  <div class="nav-next alignright"><?php previous_posts_link( 'Newer posts' ); ?></div>
 </div>
 
-
-</div>
-
-
-</div>
-
+  </div>
+ </div>
 </div>
 
 
