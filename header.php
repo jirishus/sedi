@@ -13,10 +13,10 @@
 <header>
  <div class="container">
  <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-3">
    <a href="http://localhost:3000/learnsteady/">LearnSteady</a>
   </div>
-  <div class="col-md-6">
+  <div class="col-md-9">
    <?php dynamic_sidebar('main nav'); ?>
   </div>
  </div>

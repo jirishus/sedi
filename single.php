@@ -9,4 +9,8 @@
  </div>
 </div>
 
+<div class="comment list">
+ <?php comments_template(); ?>
+</div>
+
 <?php get_footer(); ?>

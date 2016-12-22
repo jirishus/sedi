@@ -1,1 +1,5 @@
-<p>Cant find that bro</p>
+<?php get_header(); ?>
+
+ <p>Nothing Found</p>
+
+<?php get_footer(); ?>
