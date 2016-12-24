@@ -25,11 +25,13 @@
 
 <section class="hero-unit">
  <div class="container">
-  <div class="row">
+  <div class="row hero-inner">
 
    <div class="col-md-12">
-    <h2>Software Tutorials And Best Practices</h2>
+    <h2>Web Development, Software, And More</h2>
     <!-- <a href="#" class="btn btn-primary">Get Started Now</a> -->
+
+    <?php dynamic_sidebar('main search') ?>
    </div>
 
   </div>
@@ -37,7 +39,5 @@
 </section>
 
 <div class="learn-nav group">
-  <nav class="row col-md-6 col-md-offset-4">
-    <?php dynamic_sidebar('learn nav'); ?>
-  </nav>
+  <?php dynamic_sidebar('learn nav'); ?>
 </div>

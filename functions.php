@@ -78,4 +78,12 @@ add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
   ));
  }
 
+ if(function_exists('register_sidebar')) {
+  register_sidebar(array(
+   'name'          => 'main search',
+   'id'            => 'main-search',
+   'description'   => 'Main Search Widget'
+  ));
+ }
+
 ?>

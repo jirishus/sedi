@@ -18,8 +18,8 @@
  </div>
 
 <div class="row group pagination">
- <div class="nav-previous nav-link"><?php next_posts_link( 'Previous' ); ?></div>
- <div class="nav-next nav-link"><?php previous_posts_link( 'Next' ); ?></div>
+ <div class="nav-previous pager-link"><?php next_posts_link( 'Previous' ); ?></div>
+ <div class="nav-next pager-link"><?php previous_posts_link( 'Next' ); ?></div>
 </div>
 
   </div>
