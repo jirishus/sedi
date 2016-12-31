@@ -30,7 +30,7 @@ add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
  * @return int (Maybe) modified excerpt length.
  */
   function wpdocs_custom_excerpt_length( $length ) {
-      return 25;
+      return 15;
   }
   add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 
@@ -83,6 +83,14 @@ add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
    'name'          => 'main search',
    'id'            => 'main-search',
    'description'   => 'Main Search Widget'
+  ));
+ }
+
+ if(function_exists('register_sidebar')) {
+  register_sidebar(array(
+   'name'          => 'footer nav',
+   'id'            => 'footer-nav',
+   'description'   => 'Main Footer Widget'
   ));
  }
 

@@ -89,6 +89,10 @@ header a {
  text-align:center;
 }
 
+.hero-unit form label {
+  color: #fff;
+}
+
 .hero-unit h2 {
   color: #fff;
   z-index:10;
@@ -141,11 +145,17 @@ li {
  width:33.3%;
 }
 
+@media (max-width: 450px) {
+  .single-blog {
+    width: 100%;
+  }
+}
+
 .single-blog aside {
  border-bottom: 1px solid #333;
  height: 350px;
  margin: 0 auto;
- width:90%;
+ width: 90%;
 }
 
 .single-blog-title {
@@ -183,4 +193,9 @@ li {
 footer {
  border-top:2px solid #333;
  height:20px;
+ padding: 35px 10px;
+}
+
+footer .menu {
+  padding:0;
 }
