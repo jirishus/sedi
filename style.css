@@ -16,8 +16,13 @@ Theme is Licensed under the GPL
     height: 0;
 }
 
+.single_content p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
 .read-more {
- background: #ccc;
+ background: #eee;
  display: block;
  float: right;
  margin: 15px 10px 15px 0px;
@@ -28,7 +33,7 @@ Theme is Licensed under the GPL
 
 .title_single {
  border-bottom: 1px solid #333;
- padding: 40px 0;
+ padding: 20px 0;
  margin-bottom: 40px;
  text-align:center;
  text-transform: uppercase;
@@ -67,8 +72,6 @@ Theme is Licensed under the GPL
 a:hover {
  text-decoration:none;
 }
-
-body {}
 
 header {
  padding:10px 0;
