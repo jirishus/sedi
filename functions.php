@@ -41,7 +41,7 @@ add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
   wp_register_style( 'bootstrap', get_stylesheet_directory_uri().'/bower_components/bootstrap/dist/css/bootstrap.css', '', '', 'screen' );
   wp_enqueue_style( 'bootstrap' );
 
-  wp_register_style( 'screen', get_stylesheet_directory_uri().'/style.css', '', '', 'screen' );
+  wp_register_style( 'screen', get_stylesheet_directory_uri().'/styles/stylesheets/screen.css', '', '', 'screen' );
   wp_enqueue_style( 'screen' );
 
  }

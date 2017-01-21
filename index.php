@@ -9,6 +9,7 @@
   <section class="single-blog">
    <aside>
     <h4 class="single-blog-title"><a href="<?php esc_url( the_permalink() ); ?>"><?php the_title(); ?></a></h4>
+    <p><?php the_date(); ?></p>
     <p><?php the_post_thumbnail(); ?></p>
     <p class="excerpt group"><?php the_excerpt(); ?></p>
    </aside>

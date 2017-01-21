@@ -21,6 +21,16 @@ Theme is Licensed under the GPL
   margin: 20px 0;
 }
 
+.single_content ul {
+  display: inline;
+  padding: 0;
+}
+
+p.single_category {
+  font-size: 14px;
+  display: inline;
+}
+
 .read-more {
  background: #eee;
  display: block;
