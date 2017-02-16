@@ -9,6 +9,7 @@ h5 { font-size: .83em; }
 h6 { font-size: .75em; }
 
 body {
+ background: blue;
  font-family: arial;
 }
 
@@ -145,6 +146,7 @@ header {
 ul, li {
  list-style:none;
   margin: 0;
+  padding: 0;
 }
 
 li {

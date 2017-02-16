@@ -38,8 +38,7 @@
   <div class="row hero-inner">
 
    <div class="col-md-12">
-    <h2>Web Development, Software, And More</h2>
-    <!-- <a href="#" class="btn btn-primary">Get Started Now</a> -->
+    <h2>Shape Your World With Code</h2>
 
     <?php dynamic_sidebar('main search') ?>
    </div>
