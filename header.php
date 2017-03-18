@@ -16,6 +16,7 @@
   ga('send', 'pageview');
   ga('send', 'event', 'Video', 'play', 'some random label');
 </script>
+
 <?php wp_head(); ?>
 </head>
 <body>
@@ -38,7 +39,7 @@
   <div class="row hero-inner">
 
    <div class="col-md-12">
-    <h2>Shape Your World With Code</h2>
+    <h2>Learn The Art Of Code</h2>
 
     <?php dynamic_sidebar('main search') ?>
    </div>
