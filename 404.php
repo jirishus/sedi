@@ -1,5 +1,13 @@
 <?php get_header(); ?>
+ 
+<div class="container">
 
- <p>Nothing Found</p>
+ <div class="row">
+  <div class="col-md-6">
+   <p>Nothing Found</p>
+  </div>
+ </div>
+
+</div>
 
 <?php get_footer(); ?>

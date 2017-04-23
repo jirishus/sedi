@@ -39,7 +39,7 @@
   <div class="row hero-inner">
 
    <div class="col-md-12">
-    <h2>Learn The Art Of Code</h2>
+    <h2>A Daily Learning Resource</h2>
 
     <?php dynamic_sidebar('main search') ?>
    </div>
