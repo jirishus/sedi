@@ -3,8 +3,6 @@
  // thumbnail theme support
  add_theme_support('post-thumbnails');
 
- // actions & filters
- add_action('wp_enqueue_scripts', 'semi_script_enqueuer');
  add_action('init','register_my_menus');
 
  add_filter('show_admin_bar', '__return_false');
@@ -36,15 +34,17 @@ add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 
  // definitions
 
- function semi_script_enqueuer() {
-  
-  // wp_register_style( 'bootstrap', get_stylesheet_directory_uri().'/bower_components/bootstrap/dist/css/bootstrap.css', '', '', 'screen' );
-  // wp_enqueue_style( 'bootstrap' );
 
-  wp_register_style( 'screen', get_stylesheet_directory_uri().'/styles/stylesheets/screen.css', '', '', 'screen' );
-  wp_enqueue_style( 'screen' );
+ add_action('wp_enqueue_scripts', 'wpdocs_scripts_method');
+  /*
+   * Enqueue a script with the correct path.
+   */
+  function wpdocs_scripts_method() {
+      wp_enqueue_script('appjs', get_template_directory_uri() . '/js/app.js', array('jquery'));
 
- }
+      wp_register_style( 'screen', get_stylesheet_directory_uri().'/styles/stylesheets/screen.css', '', '', 'screen' );
+      wp_enqueue_style( 'screen' );
+  }
 
  // register menus
  function register_my_menus() {

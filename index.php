@@ -3,7 +3,7 @@
 <div class="container">
 
 <div class="row group">
- <div class="col-md-12">
+ <div class="col-sm-12">
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   
   <section class="single-blog">

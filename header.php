@@ -4,8 +4,9 @@
 <title><?php wp_title('|'); ?></title>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
- 
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -21,18 +22,13 @@
 </head>
 <body>
 
-<header>
- <div class="container">
- <div class="row">
-  <div class="col-md-3">
-   <a href="/">LearnSteady</a>
-  </div>
-  <div class="col-md-9">
-   <?php dynamic_sidebar('main nav'); ?>
-  </div>
- </div>
+<div class="topnav" id="myTopnav">
+  <a href="/learnsteady">Home</a>
+  <a href="/learnsteady/resources">Resources</a>
+  <a href="/learnsteady/about">About</a>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
-</header>
 
 <section class="hero-unit">
  <div class="container">
@@ -48,6 +44,6 @@
  </div>
 </section>
 
-<div class="learn-nav group">
+<!-- <div class="learn-nav group">
   <?php dynamic_sidebar('learn nav'); ?>
-</div>
+</div> -->
