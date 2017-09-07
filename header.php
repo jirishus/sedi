@@ -7,15 +7,11 @@
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<!-- google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
-  ga('create', 'UA-39146802-2', 'auto');
-  ga('send', 'pageview');
-  ga('send', 'event', 'Video', 'play', 'some random label');
+<script>
+  console.log('no goolge analytics');
 </script>
 
 <?php wp_head(); ?>
@@ -23,27 +19,34 @@
 <body>
 
 <div class="topnav" id="myTopnav">
-  <a href="/learnsteady">Home</a>
-  <a href="/learnsteady/resources">Resources</a>
+  <a href="/learnsteady">Home</a>  
   <a href="/learnsteady/about">About</a>
-
+  <a href="#">Lessons</a>
+  <a href="/learnsteady/resources">Resources</a>
+    
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
+
+<!-- Don't show on single views -->
+<?php if (!is_single()) { ?>
 
 <section class="hero-unit">
  <div class="container">
   <div class="row hero-inner">
 
-   <div class="col-md-12">
-    <h2>A Daily Learning Resource</h2>
+   <div class="col-md-8 col-md-offset-2">
 
-    <?php dynamic_sidebar('main search') ?>
+    <h1>Invest In Your Knowledge</h1>
+    <h2>Learn Cutting Edge Technologies</h2>
+    
+    <img src="http://placehold.it/80x80" alt ="" />
+    <img src="http://placehold.it/80x80" alt ="" />
+    <img src="http://placehold.it/80x80" alt ="" />
+    <img src="http://placehold.it/80x80" alt ="" />
+      
    </div>
-
   </div>
  </div>
 </section>
 
-<!-- <div class="learn-nav group">
-  <?php dynamic_sidebar('learn nav'); ?>
-</div> -->
+<?php } ?>
