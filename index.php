@@ -4,6 +4,7 @@
 
 <div class="row group">
  <div class="col-sm-8">
+  <h2 class="center">Latest Articles On Web Development</h2>
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   
   <section class="single-blog">

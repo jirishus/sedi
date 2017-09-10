@@ -13,7 +13,7 @@ h4 { font-size: 1.12em; }
 h5 { font-size: .83em; }
 h6 { font-size: .75em; }
 
-body {
+body, html {
  font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -24,6 +24,14 @@ body {
     content: "";
     clear: both;
     height: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  padding: 30px 0;
 }
 
 .single_content {
@@ -105,14 +113,6 @@ a {
  }
 }
 
-.hero-inner {
-  border-bottom: 1px solid #ccc;
-  padding: 60px 0;
-  h2 {
-    padding: 15px 0;
-  }
-}
-
 .learn-nav {
  border-bottom: 2px solid $lite;
  border-top: 2px solid $lite;
@@ -125,11 +125,6 @@ a {
  display:inline-block;
  margin-right: 15px;
  padding: 20px 10px;
-}
-
-.current-menu-item a {
-  background: $blue;
-  color: #fff;
 }
 
 ul, li {
@@ -218,7 +213,6 @@ li {
 }
 
 .main-sidebar {
-  padding: 40px 0;
   li {
     display:block;
     text-transform:uppercase;
@@ -241,17 +235,6 @@ li {
 .widget_recent_entries .widgettitle {
  display: none;
 }
-
-footer {
- border-top:2px solid #333;
- height:20px;
- padding: 35px 10px;
- menu {
-  padding: 0;
- }
-}
-
-#canvas {}
 
 /////////////////////////
 /// W3G Responsive Nav

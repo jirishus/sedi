@@ -2,8 +2,11 @@
 
 <div class="container">
  <div class="row">
-  <div class="col-md-12">
+  <div class="col-md-6">
    <?php dynamic_sidebar('footer nav'); ?>
+  </div>
+  <div class="col-md-6">
+   <p>second column</p>
   </div>
  </div>
 </div>

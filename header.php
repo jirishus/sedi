@@ -19,34 +19,11 @@
 <body>
 
 <div class="topnav" id="myTopnav">
-  <a href="/learnsteady">Home</a>  
-  <a href="/learnsteady/about">About</a>
-  <a href="#">Lessons</a>
-  <a href="/learnsteady/resources">Resources</a>
+  <a href="/learnsteady/">LearnSteady</a>  
+  <a href="/learnsteady/blog">Blog</a>
+  <!-- <a href="/learnsteady/about">About</a> -->
+  <!-- <a href="/learnsteady/resources">Resources</a> -->
     
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
-<!-- Don't show on single views -->
-<?php if (!is_single()) { ?>
-
-<section class="hero-unit">
- <div class="container">
-  <div class="row hero-inner">
-
-   <div class="col-md-8 col-md-offset-2">
-
-    <h1>Invest In Your Knowledge</h1>
-    <h2>Learn Cutting Edge Technologies</h2>
-    
-    <img src="http://placehold.it/80x80" alt ="" />
-    <img src="http://placehold.it/80x80" alt ="" />
-    <img src="http://placehold.it/80x80" alt ="" />
-    <img src="http://placehold.it/80x80" alt ="" />
-      
-   </div>
-  </div>
- </div>
-</section>
-
-<?php } ?>
